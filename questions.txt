@@ -1,0 +1,223 @@
+1
+What does an object use its fields for?
+To connect to other objects in the program.
+To manage the object's lifecycle.
+To define its methods and behaviors.
+*To store data that represents the object's state or attributes.
+
+2
+What are an object’s methods?
+The object's internal data structures.
+*Functions or procedures that define the object's behavior or actions.
+Variables that hold the object's data.
+The object's connections to other classes.
+
+3
+How is a class like a blueprint?
+It only stores data without defining behavior.
+It directly creates objects without any template.
+*It defines the structure and behavior of objects created from it.
+It is an instance of an object.
+
+4
+You have programs that create Scanner, Random, and PrintWriter objects. Where are the Scanner, Random, and PrintWriter classes?
+In a custom package defined by the programmer.
+*In the Java standard library (java.util and java.io packages).
+In the operating system's kernel.
+In the program's local directory.
+
+5
+What does the new operator do?
+It modifies an object's fields directly.
+It links two objects together.
+*It creates a new instance of a class by allocating memory and calling the constructor.
+It deletes an existing object from memory.
+
+6
+What values do reference variables hold?
+The class definition of the object.
+A copy of the object's methods.
+*The memory address or reference to an object in memory.
+The actual data of the object.
+
+7
+How is the relationship between an object and a reference variable similar to a kite and a spool of string?
+Both are independent and not connected.
+The kite represents the class, not the object.
+*The reference variable (spool) holds the address of the object (kite), controlling access to it.
+The object (spool) controls the reference variable (kite).
+
+8
+In this chapter we used the metaphor of a kite attached to a spool of string to describe the relationship between an object and a reference variable. In this metaphor, does the kite represent an object, or a reference variable?
+The kite represents the method.
+The kite represents the class.
+*The kite represents the object.
+The kite represents the reference variable.
+
+9
+When a variable is said to reference an object, what is actually stored in the variable?
+The object's methods only.
+*The memory address of the object.
+The class definition.
+The object's complete data.
+
+10
+A string literal, such as "Joe", causes what type of object to be created?
+A Text object.
+A Literal object.
+*A String object.
+A Character object.
+
+11
+Write a statement that calls setMake and passes the argument "Cadillac".
+setMake(limo, "Cadillac");
+limo.setMake = "Cadillac";
+*limo.setMake("Cadillac");
+limo.make = "Cadillac";
+
+12
+What does the keyword new do?
+It modifies an existing object.
+*It allocates memory for a new object and calls its constructor.
+It clears memory for an object.
+It defines a new class.
+
+13
+What is an accessor? What is a mutator?
+An accessor defines a class; a mutator changes its structure.
+An accessor connects objects; a mutator disconnects them.
+*An accessor retrieves a field’s value; a mutator modifies it.
+An accessor creates objects; a mutator deletes them.
+
+14
+What is a stale data item?
+Data that is stored in a temporary variable.
+*Data that is outdated or no longer reflects the current state.
+Data that is private and inaccessible.
+Data that is corrupted and unusable.
+
+15
+How is a constructor named?
+It is named after the first field in the class.
+It is named after the object it creates.
+*It has the same name as the class and no return type.
+It is named "constructor" with a return type.
+
+16
+What is a constructor’s return type?
+It returns an integer.
+*It has no return type.
+It returns void.
+It returns an object.
+
+17
+Assume that the following is a constructor, which appears in a class: ClassAct(int number) { item = number; } What is the name of the class that this constructor appears in?
+Constructor
+Item
+*ClassAct
+Number
+
+18
+Assume that the following is a constructor, which appears in a class: ClassAct(int number) { item = number; }Write a statement that creates an object from the class and passes the value 25 as an argument to the constructor
+ClassAct(25) = new obj;
+new ClassAct obj = (25);
+*ClassAct obj = new ClassAct(25);
+ClassAct obj = ClassAct(25);
+
+19
+Is it required that overloaded methods have different return values, different parameter lists, or both?
+Both different return values and parameter lists.
+Neither, they can be identical.
+*Different parameter lists.
+Different return values.
+
+20
+What is a method’s signature?
+The method’s return type and name.
+The method’s access modifier and name.
+*The method’s name and parameter list.
+The method’s body and parameters.
+
+21
+Look at the following class: public class CheckPoint { public void message(int x) { System.out.print("This is the first version "); System.out.println("of the method."); } public void message(String x) { System.out.print("This is the second version "); System.out.println("of the method."); } } What will the following code display? CheckPoint cp = new CheckPoint(); cp.message("1"); cp.message(1);
+This is the first version of the method only.
+*This is the second version of the method. This is the first version of the method.
+This is the second version of the method only.
+This is the first version of the method. This is the second version of the method.
+
+22
+How many default constructors may a class have?
+Multiple
+Unlimited
+*One
+Zero
+
+23
+What is a problem domain?
+The programming language used for the application.
+*The specific area or context that the application is designed to address.
+The user interface of the application.
+The hardware requirements for the application.
+
+24
+When designing an object-oriented application, who should write a description of the problem domain?
+The project manager exclusively.
+The compiler automatically.
+*The developer or analyst familiar with the application’s context.
+The end user only.
+
+25
+How do you identify the potential classes in a problem domain description?
+Focus on adjectives describing attributes.
+Analyze the adverbs for behaviors.
+*Look for nouns that represent objects or entities in the description.
+Identify verbs that represent actions.
+
+26
+What are a class’s responsibilities?
+The compilation process.
+The user interface design.
+*The tasks or functions the class is responsible for performing and the data it manages.
+The memory allocation for objects.
+
+27
+What two questions should you ask to determine a class’s responsibilities?
+Where is the class stored? What is its name?
+Who uses the class? How often is it used?
+*What does the class know? What does the class do?
+How is the class compiled? What is its size?
+
+28
+Will all of a class’s actions always be directly mentioned in the problem domain description?
+Actions are never mentioned in the description.
+Only private actions are mentioned.
+*No, some actions may be implied or derived from the requirements.
+Yes, all actions must be explicitly stated.
+
+29
+What is the difference between a class and an instance of a class?
+A class is an object; an instance is a method.
+There is no difference.
+*A class is a blueprint; an instance is an object created from it.
+A class is a variable; an instance is a class.
+
+30
+A contractor uses a blueprint to build a set of identical houses. Are classes analogous to the blueprint or the houses?
+Classes are analogous to the materials.
+Classes are analogous to the contractor.
+*Classes are analogous to the blueprint.
+Classes are analogous to the houses.
+
+31
+What is an accessor method? What is a mutator method?
+Accessor defines a class; mutator changes its structure.
+Accessor connects objects; mutator disconnects them.
+*Accessor retrieves field values; mutator modifies them.
+Accessor creates objects; mutator deletes them.
+
+32
+Is it a good idea to make fields private? Why or why not?
+No, it prevents method creation.
+Yes, to make fields publicly accessible.
+*Yes, to protect data and ensure encapsulation
+No, its silly.
